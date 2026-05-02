@@ -323,3 +323,38 @@ with tab3:
         if st.button("Clear Logs"):
             st.session_state.logs = []
             st.rerun()
+# ─────────────────────────────────────────────
+#  Footer
+# ─────────────────────────────────────────────
+st.markdown("""
+<br><br>
+<div style="
+    text-align: center;
+    padding: 1.2rem;
+    border-top: 1px solid #2a2a4a;
+    margin-top: 2rem;
+">
+    <div style="
+        font-family: 'DM Mono', monospace;
+        font-size: 0.78rem;
+        color: #555;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 0.4rem;
+    ">Designed & Developed by</div>
+    <div style="
+        font-family: 'Syne', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 800;
+        background: linear-gradient(90deg, #00d4ff, #7b2ff7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    ">Manik</div>
+    <div style="
+        font-family: 'DM Mono', monospace;
+        font-size: 0.72rem;
+        color: #444;
+        margin-top: 0.3rem;
+    ">Python OOP · Module 4 Project · 2025</div>
+</div>
+""", unsafe_allow_html=True)
